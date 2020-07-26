@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>this is django text</h1>
+<a href="{% url 'result' %}">go to result</a>
+
+
+<form action="{% url 'result' %}">
+    <input type="number" name="user_age" />
+    <input type="submit" name="submit" />
+
+</form>
+</body>
+</html>
